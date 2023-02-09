@@ -98,7 +98,6 @@ header{
 }
 /* Bonus section styles */
 .bonus{
-    border: 1px solid red;
     width: 80%;
     height: 40vh;
     margin: 0 auto 130px;
