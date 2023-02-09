@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #005FAC;
+    text-decoration: none;
+}
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+}
+/* header */
+header{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+    background-image: url(../images/banner/banner3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.h-content-right{
+    border: 1px solid black;
+    width: 44%;
+    /* align-self: center; */
+    margin-right: 40px;
+}
+.h-content-right h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.h-content-right p{
+    display: flex;
+    justify-content: end;
+    height: 80%;
+    color: #FFFFFF;
+    margin: 24px 0;
+}
+/* failure section styles */
+.failure{
+    width: 80%;
+    border: 1px solid black;
+    margin: 130px auto;}
+.failure-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-align-right{
+    margin-left: 87px;
+}
+.failure-content h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.failure-content p{
+    color: #444343;
+}
+.failure-description{
+    margin: 24px 0 16px;
+}
+.btn-success{
+    color: green;
+    margin-right: 8px;
+}
+/* Future Plan section style */
+.my-plan{
+    width: 80%;
+    margin: 0 auto 130px;
+    text-align: center;
+    border: 1px solid black;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.skill-learning h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+.skill-learning p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+.me-learning{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Bonus section styles */
+.bonus{
+    border: 1px solid red;
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto 130px;
+    display: flex;
+    align-items: center;
+    background-image:url(../images/gradient1.png) ,url(../images/watch.png) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.bonus-content{
+    margin-left: 64px;
+}
+.bonus-content h1{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+/* Footer section  */
